@@ -1,0 +1,37 @@
+@font-face{
+    font-family: 'zh-cn';
+    src: url(zh-cn.ttf) format(truetype);
+}
+body{
+    background: url(https://images5.alphacoders.com/109/thumb-1920-1099191.jpg);   
+    background-size: cover;
+    background-attachment: fixed;
+}
+#logoH{
+    margin: 5px 25px;
+    text-align: center;
+}
+h1,p{
+    font-family: 'zh-cn';
+    text-align: center;
+    color: black;
+}
+.gallery{
+    margin: 10px 50px;
+    color: greenyellow;
+}
+.gallery img{
+    transition: 1s;
+    padding: 5px;
+    width: 400px;
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.2);
+}
+.img-thumbnail{        
+    width: min-content;
+    height: min-content;
+    overflow: inherit;
+}
+    
